@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+  <defs>
+    <linearGradient id="runbg" x1="0" x2="1">
+      <stop offset="0" stop-color="#121316"/>
+      <stop offset="1" stop-color="#1f2329"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="680" fill="url(#runbg)"/>
+  <rect x="70" y="80" width="1060" height="520" rx="30" fill="#1b1f26" stroke="#2f3440"/>
+  <text x="170" y="220" fill="#ffffff" font-size="66" font-weight="800" font-family="Arial, sans-serif">smart</text>
+  <text x="430" y="220" fill="#facc15" font-size="66" font-weight="900" font-family="Arial, sans-serif">fit</text>
+  <text x="170" y="326" fill="#facc15" font-size="136" font-weight="900" font-family="Arial, sans-serif">RUN</text>
+  <text x="170" y="386" fill="#ffffff" font-size="56" font-weight="700" font-family="Arial, sans-serif">12 de julio " Bogotá</text>
+  <text x="170" y="486" fill="#ffffff" font-size="58" font-weight="700" font-family="Arial, sans-serif">Aprovecha la preventa</text>
+  <text x="170" y="546" fill="#facc15" font-size="58" font-weight="900" font-family="Arial, sans-serif">hasta el 2 de junio.</text>
+</svg>

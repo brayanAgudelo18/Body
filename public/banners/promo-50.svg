@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#0a0b0f"/>
+      <stop offset="1" stop-color="#171922"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="680" fill="url(#bg)"/>
+  <rect x="88" y="88" width="1024" height="504" rx="24" fill="none" stroke="#facc15" stroke-width="6"/>
+  <text x="110" y="120" fill="#facc15" font-size="40" font-weight="900" font-family="Arial, sans-serif">LLEGA A MITAD DE AÑO</text>
+  <text x="110" y="520" fill="#ffffff" font-size="110" font-weight="900" font-family="Arial, sans-serif">50%</text>
+  <text x="438" y="520" fill="#ffffff" font-size="48" font-weight="800" font-family="Arial, sans-serif">+ INSCRIPCIÓN GRATIS</text>
+  <rect x="110" y="556" width="440" height="74" rx="10" fill="#facc15"/>
+  <text x="146" y="605" fill="#111827" font-size="44" font-weight="900" font-family="Arial, sans-serif">INICIA YA MISMO</text>
+  <circle cx="1048" cy="340" r="56" fill="#facc15"/>
+  <text x="1030" y="357" fill="#111827" font-size="54" font-weight="900" font-family="Arial, sans-serif">:</text>
+</svg>

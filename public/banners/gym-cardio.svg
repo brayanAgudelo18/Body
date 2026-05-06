@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="420" viewBox="0 0 700 420">
+  <rect width="700" height="420" fill="#15161a"/>
+  <rect x="92" y="242" width="516" height="14" rx="7" fill="#ef4444"/>
+  <rect x="120" y="150" width="92" height="92" rx="12" fill="#262832"/>
+  <rect x="242" y="150" width="92" height="92" rx="12" fill="#262832"/>
+  <rect x="364" y="150" width="92" height="92" rx="12" fill="#262832"/>
+  <rect x="486" y="150" width="92" height="92" rx="12" fill="#262832"/>
+  <text x="92" y="104" fill="#fff" font-size="34" font-family="Arial, sans-serif" font-weight="800">ZONA DE CARDIO</text>
+</svg>

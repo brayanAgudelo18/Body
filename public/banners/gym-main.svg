@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1">
+      <stop offset="0" stop-color="#0f0f10"/>
+      <stop offset="1" stop-color="#1b1b1f"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0" x2="1">
+      <stop offset="0" stop-color="#ef4444"/>
+      <stop offset="1" stop-color="#991b1b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#g1)"/>
+  <rect x="0" y="520" width="1200" height="180" fill="#0b0b0d"/>
+  <rect x="120" y="130" width="420" height="260" rx="18" fill="#202027"/>
+  <rect x="560" y="170" width="520" height="220" rx="18" fill="#1a1a20"/>
+  <rect x="120" y="420" width="960" height="14" rx="7" fill="url(#g2)"/>
+  <circle cx="1040" cy="130" r="58" fill="rgba(239,68,68,.2)"/>
+  <text x="120" y="96" fill="#ffffff" font-size="44" font-family="Arial, sans-serif" font-weight="800">BODYHEALTHGYM</text>
+  <text x="120" y="474" fill="#f3f4f6" font-size="28" font-family="Arial, sans-serif" font-weight="600">Zona premium de entrenamiento</text>
+</svg>

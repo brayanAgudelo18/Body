@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+  <defs>
+    <linearGradient id="bg2" x1="0" x2="1">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="1" stop-color="#1f2937"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="680" fill="url(#bg2)"/>
+  <rect x="70" y="74" width="1060" height="530" rx="28" fill="#000000" stroke="#2b2f3b"/>
+  <rect x="120" y="132" width="960" height="260" rx="18" fill="#172554"/>
+  <text x="138" y="460" fill="#facc15" font-size="56" font-weight="900" font-family="Arial, sans-serif">INVITA A ENTRENAR HASTA 12 AMIGOS</text>
+  <text x="138" y="542" fill="#ffffff" font-size="76" font-weight="900" font-family="Arial, sans-serif">FIT FRIEND 2026</text>
+  <rect x="138" y="564" width="390" height="70" rx="35" fill="#dc2626"/>
+  <text x="198" y="610" fill="#ffffff" font-size="40" font-weight="900" font-family="Arial, sans-serif">CONOCE MÁS</text>
+</svg>
