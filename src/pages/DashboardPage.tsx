@@ -6,6 +6,7 @@ import { useAuth } from '../state/auth'
 import { readProducts } from '../state/products'
 
 export function DashboardPage() {
+  const base = import.meta.env.BASE_URL
   const { member, payMonthly, updateCommunityProfile } = useAuth()
   const [toast, setToast] = useState<string | null>(null)
   const [about, setAbout] = useState(member?.profile?.about ?? '')
@@ -70,7 +71,7 @@ export function DashboardPage() {
 
   const memberPromos = readProducts().filter((p) => p.memberOnlyPromo).slice(0, 5)
 
-  const heroImages = ['/banners/gym-main.svg', '/banners/gym-weights.svg', '/banners/gym-cardio.svg']
+  const heroImages = ['banners/gym-main.svg', 'banners/gym-weights.svg', 'banners/gym-cardio.svg']
 
   return (
     <div className="stack">
@@ -104,7 +105,7 @@ export function DashboardPage() {
               <img
                 key={src}
                 className={`memberHeroImg ${idx === 0 ? 'memberHeroImgMain' : ''}`}
-                src={src}
+                src={`${base}${src}`}
                 alt="Entrenamiento en BodyHealthGym"
                 loading="lazy"
               />

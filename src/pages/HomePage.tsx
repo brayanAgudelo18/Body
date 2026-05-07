@@ -5,6 +5,7 @@ import { useAuth } from '../state/auth'
 import { useEffect, useState } from 'react'
 
 export function HomePage() {
+  const base = import.meta.env.BASE_URL
   const { member } = useAuth()
   const plan = MEMBERSHIP_PLANS.mensual
   const highlight = PRODUCTS.filter((p) => p.available).slice(0, 3)
@@ -21,6 +22,7 @@ export function HomePage() {
       alt: 'Promoción Fit Friend',
     },
   ]
+  const slidesWithBase = slides.map((s) => ({ ...s, src: `${base}${s.src.replace(/^\/+/, '')}` }))
 
   useEffect(() => {
     const timer = window.setInterval(() => {
@@ -50,13 +52,13 @@ export function HomePage() {
           {prevSlide !== null ? (
             <img
               className={`sfSlideImg sfSlideImgPrev ${isTransitioning ? 'isLeaving' : ''}`}
-              src={slides[prevSlide].src}
+              src={slidesWithBase[prevSlide].src}
               alt={slides[prevSlide].alt}
             />
           ) : null}
           <img
             className={`sfSlideImg sfSlideImgCurrent ${isTransitioning ? 'isEntering' : ''}`}
-            src={slides[slide].src}
+            src={slidesWithBase[slide].src}
             alt={slides[slide].alt}
           />
           <div className="sfDots" aria-hidden="true">
@@ -193,7 +195,7 @@ export function HomePage() {
           </div>
         </div>
         <article className="fitFriendCard">
-          <img className="fitFriendBanner" src="/banners/fitfriend-card.svg" alt="Promoción Fit Friend 2026" />
+          <img className="fitFriendBanner" src={`${base}banners/fitfriend-card.svg`} alt="Promoción Fit Friend 2026" />
           <div className="fitFriendBody">
             <h3 className="fitFriendTitle">Fit Friend 2026</h3>
             <div className="fitFriendDate">15 Ene 2026 - 31 Dic 2026</div>
